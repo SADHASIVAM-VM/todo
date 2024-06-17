@@ -1,0 +1,114 @@
+body{
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+    font-size: large;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    box-shadow:2px 2px 5px gray;
+    width: 400px;
+    align-items: center;
+    height:100%;
+    border-radius: 5px;
+    background: whitesmoke;
+}
+.header{
+    background: rgb(185, 222, 255);
+    width: 100%;
+    text-align: center;
+}
+.box{
+    margin-top: 50px;
+    overflow: auto;
+}
+
+.box::-webkit-scrollbar {
+    display: none; 
+}
+
+
+input{
+    font-size: large;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid black;
+    width: 300px;
+    
+  
+
+}
+input:focus{    
+    outline: none;
+}
+button{
+    padding:5px 10px ;
+
+}
+button{
+    background: transparent;
+    border: none;
+    font-size: 20px;
+}
+button .fa-plus{
+    color:rgb(0, 218, 0);
+}
+button .fa-trash{
+    color: rgb(231, 22, 22);
+}
+.bt:hover{
+    box-shadow: inset 2px 2px 15px rgb(83, 88, 184);
+    border-radius: 10px;
+}
+
+.hh{
+    width: 20px;
+}
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+    top:-20px;
+    right: 2px;
+}
+.abs1{
+    display: none;
+    top:20px;
+    width: 100px;
+    background: #000;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+.abs:hover{
+    cursor: pointer;
+    
+}
+.abs:hover .abs1{
+    display: block;
+}
+.pp{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+    cursor: pointer;
+    margin: 10px 0;
+}
+#bn{
+    margin-top: 10px;
+    cursor: pointer;
+}
+small{
+    
+    color:gray;
+}
+.rel{
+    position: relative;
+}
+.btnAbs{
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    cursor: pointer;
+}
